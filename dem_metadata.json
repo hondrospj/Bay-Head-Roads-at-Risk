@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Bay Head DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Bay Head Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 1110,
+  "height": 2185,
+  "nodata": -999999,
+  "minMeters": -1.038,
+  "maxMeters": 7.205,
+  "meanMeters": 1.277,
+  "stdDevMeters": 1.176,
+  "minFeet": -3.4055118110100002,
+  "maxFeet": 23.638451443475002,
+  "webMercatorBounds": [
+    -8243804.798733,
+    4874308.992097,
+    -8242113.158733,
+    4877638.932097
+  ],
+  "leafletBounds": [
+    [
+      40.0575576,
+      -74.0553585
+    ],
+    [
+      40.080443,
+      -74.040163
+    ]
+  ],
+  "files": {
+    "demCog": "bay_head_dem_5ft_cog.tif",
+    "hillshadeCog": "bay_head_hillshade_cog.tif",
+    "hillshadePng": "bay_head_hillshade.png",
+    "boundaryGeojson": "bay_head_boundary.geojson"
+  }
+}
